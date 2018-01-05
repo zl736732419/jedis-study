@@ -20,9 +20,6 @@ import java.util.Properties;
  * @Date 2018/1/5 17:21
  */
 public class JedisUtil {
-    public static final String MSET_KEY = "key";
-    public static final String MSET_VAL = "value";
-    
     private static JedisPoolConfig cfg = new JedisPoolConfig();
     private static JedisPool pool;
     static {
